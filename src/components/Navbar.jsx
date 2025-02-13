@@ -88,7 +88,7 @@ const Navbar = () => {
             </div>
 
             {/* Navbar items and buttons */}
-            <div className={`fixed md:static top-0 right-0 h-screen md:h-auto w-full md:w-auto bg-sky-50 border-l md:border-none border-neutral-300 md:bg-transparent shadow-lg md:shadow-none transition-all ease-in-out duration-300 transition-transform flex-1 ${open ? "translate-x-0 " : "translate-x-full"} md:translate-x-0 z-60`}>
+            <div className={`fixed md:static top-0 right-0 h-screen md:h-auto w-full md:w-auto bg-sky-50 border-l md:border-none border-neutral-300 md:bg-transparent shadow-lg md:shadow-none ease-in-out duration-300 transition-transform flex-1 ${open ? "translate-x-0 " : "translate-x-full"} md:translate-x-0 z-60`}>
 
                 {/* Logo and close icon inside toggle menu card */}
                 <div className="w-full md:hidden flex items-center justify-between px-4">
@@ -110,7 +110,7 @@ const Navbar = () => {
                 <div className="border-b border-neutral-300 md:hidden"></div>
 
                 {/* Navbar Items and button */}
-                <div className="flex-1 flex items-center flex-col md:flex-row items-center justify-between gap-6 p-6 md:p-0">
+                <div className="flex-1 flex flex-col md:flex-row items-center justify-between gap-6 p-6 md:p-0">
                     {/* Navbar items */}
                     <ul className="flex flex-col md:flex-row items-center md:gap-7 gap-4 md:text-base text-lg text-neutral-700 md:font-normal font-medium">
 
